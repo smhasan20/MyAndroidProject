@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- Important Notes Section -->
+    <TextView
+        android:id="@+id/textViewImportantNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d6c9af"
+        android:text="Important Notes"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Worklist Section (Using RecyclerView) -->
+    <TextView
+        android:id="@+id/recyclerViewWorklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Worklist"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewImportantNotes"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Category Section (Replace with your specific UI elements) -->
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b99553"
+        android:text="Category"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/recyclerViewWorklist"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Previous Work Section (Replace with your specific UI elements) -->
+    <TextView
+        android:id="@+id/textViewPreviousWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Work"
+        android:textColor="@color/black"
+        android:background="#3da4d5"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/textViewCategory"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
